@@ -3,7 +3,7 @@ import { useQuery, useQueryClient } from 'react-query';
 import Alert from '../../components/Alert';
 import Button from '../../components/Button';
 import { Card, CardBody, CardFooter } from '../../components/Card';
-import { getAllServices, Service } from '../../services/services';
+import { getAllServices, Service } from '../../api/services';
 import DeleteService from './DeleteService';
 import UpdateService from './UpdateService';
 

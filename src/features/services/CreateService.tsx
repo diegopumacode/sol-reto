@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from 'react-query'
 import { Card } from '../../components/Card'
 import ServicesForm from '../../components/Form/ServicesForm'
-import { createService } from '../../services/services'
+import { createService } from '../../api/services'
 import { ToastContainer, toast } from 'react-toastify';
 
 type Props = {

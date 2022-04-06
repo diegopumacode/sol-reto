@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useMutation, useQueryClient } from 'react-query'
-import { Service, updateService } from '../../services/services'
+import { Service, updateService } from '../../api/services'
 import { Modal } from 'react-responsive-modal';
 import Button from '../../components/Button';
 import ServicesForm from '../../components/Form/ServicesForm';

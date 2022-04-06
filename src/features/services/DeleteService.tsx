@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useMutation, useQueryClient } from 'react-query'
 import Modal from 'react-responsive-modal'
 import Button from '../../components/Button'
-import { delService } from '../../services/services'
+import { delService } from '../../api/services'
 import { ToastContainer, toast } from 'react-toastify';
 
 type Props = {
