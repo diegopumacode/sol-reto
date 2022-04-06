@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useMutation, useQueryClient } from 'react-query'
 import Modal from 'react-responsive-modal'
 import Button from '../../components/Button'
@@ -54,11 +54,11 @@ export default function DeleteService({ id }: Props) {
             <Modal open={show} onClose={() => { setShow(!show) }} center={true} showCloseIcon={true} closeOnOverlayClick={true}>
                 <p className='fs-4 font-bold mt-4'>Seguro que desea eliminar servicio?</p>
                 <div className='d-flex gap-2'>
-                    <Button variant='success' onClick={deleteService}>
+                    <Button variant='success' onClick={deleteService} disabled={isLoading}>
                         Eliminar Servicio
                     </Button>
 
-                    <Button variant='danger' outline onClick={cancel}>
+                    <Button variant='danger' outline onClick={cancel} disabled={isLoading}>
                         Cancelar
                     </Button>
                 </div>

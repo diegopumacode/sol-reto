@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useMutation, useQueryClient } from 'react-query'
 import { Service, updateService } from '../../api/services'
 import { Modal } from 'react-responsive-modal';
 import Button from '../../components/Button';
 import ServicesForm from '../../components/Form/ServicesForm';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-responsive-modal/styles.css';
+import { toast } from 'react-toastify';
 
 type Props = {
     service: Service

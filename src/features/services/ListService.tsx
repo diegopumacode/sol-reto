@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useQuery, useQueryClient } from 'react-query';
 import Alert from '../../components/Alert';
-import Button from '../../components/Button';
 import { Card, CardBody, CardFooter } from '../../components/Card';
 import { getAllServices, Service } from '../../api/services';
 import DeleteService from './DeleteService';

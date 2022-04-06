@@ -32,7 +32,7 @@ const ServicesForm = ({ title, defaultValues, onFormSubmit, isLoading, actionAft
                 <input type="text" {...register("description")} className="form-control" id="formGroupExampleInput2" placeholder="Ingrese la descripcion del servicio" required/>
             </div>
             <div className='d-flex gap-2'>
-            <Button variant="success" type='submit' onClick={() => onSubmit} outline>
+            <Button variant="success" type='submit' onClick={() => onSubmit} disabled={isLoading} outline>
                 {isLoading ? '...cargando' : titleSubmit}
             </Button>
             <Button disabled={isLoading} variant="danger" type='reset' onClick={() => {
