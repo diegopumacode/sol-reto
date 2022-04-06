@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "id": 2,
+      "name": "Auxilio Mecanico",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+      "type": "autos"
+    },
+    {
+      "id": 4,
+      "name": "Medico a domicilio",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+      "type": "hogar"
+    },
+    {
+      "id": 5,
+      "name": "Ambulancia",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+      "type": "hogar"
+    },
+    {
+      "name": "Otros",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto",
+      "type": "",
+      "id": 6
+    }
+  ]
+}
